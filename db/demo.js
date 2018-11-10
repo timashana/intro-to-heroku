@@ -29,7 +29,7 @@ module.exports = function(client) {
    price__c DOUBLE PRECISION,
    location__longitude__s DOUBLE PRECISION,
    location__latitude__s DOUBLE PRECISION,
-   crime DOUBLE PRECISION
+   crime__c DOUBLE PRECISION
   );`);
 
   client.query(`CREATE TABLE favorite__c (
