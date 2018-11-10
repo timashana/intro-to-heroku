@@ -33,11 +33,11 @@
                     <h3>Asking Price</h3>
                     <ion-note item-right>{{property.priceFormatted}}</ion-note>
                 </ion-item>
-<!--                 <ion-item>
+                <ion-item>
                         <ion-icon item-left name="alert"></ion-icon>
                         <h3>Crime Rates</h3>
                         <ion-note item-right>{{property.baths}}</ion-note>
-                </ion-item> -->
+                </ion-item>
                 <button ion-item (click)="showBroker($event, property.broker)">
                     <ion-avatar item-left>
                         <img src="{{property.broker.picture}}"/>
