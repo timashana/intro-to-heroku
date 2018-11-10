@@ -36,10 +36,7 @@
                 <ion-item>
                         <ion-icon item-left name="alert"></ion-icon>
                         <h3>Crime Rates</h3>
-                        <ion-note item-right>
-<!--                             {{(Math.random() * 20);}} -->
-                             {{property.baths * 2.3}}
-                        </ion-note>
+                        <ion-note item-right>{{property.baths}}</ion-note>
                 </ion-item>
                 <button ion-item (click)="showBroker($event, property.broker)">
                     <ion-avatar item-left>
