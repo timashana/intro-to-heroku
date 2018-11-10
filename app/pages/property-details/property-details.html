@@ -66,6 +66,16 @@
                     </button>
                 </ion-col>
             </ion-row>
+            <ion-row no-padding>
+                <script>
+                    var lat =10;
+                    var lng = 10;
+                    var url = 'http://google.com/maps?q=' +lat+lng;
+                </script>
+                <button clear>
+                <a href="' + url + '"> Show on map</a>
+                </button>
+            </ion-row>
         </ion-card>
     </div>
 </ion-content>
